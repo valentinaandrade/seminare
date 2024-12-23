@@ -14,7 +14,8 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Vali
-subtitle: |  Cartas atemporales y algunos ensayos
+subtitle: | 
+    Cartas atemporales y algunos ensayos
     economista
     amante del queso
     y otras cosas 
