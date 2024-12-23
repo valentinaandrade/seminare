@@ -14,10 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Vali
-subtitle: |
+subtitle: |  Cartas atemporales y algunos ensayos
     economista
     amante del queso
-    y otras cosas
+    y otras cosas 
 email: valentina@princeton.edu
 description: >- # this means to ignore newlines until "baseurl:"
     Cartas atemporales y algunos ensayos
