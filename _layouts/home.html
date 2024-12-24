@@ -10,7 +10,7 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <div class="content" style="margin-top: 20px;">
-        <a href="{{ post.url }}" class="linkicon" title="{{ post.date }}"><img src="/assets/link.svg" class="linkicon" /></a>
+        <a href="/seminare{{ post.url }}" class="linkicon" title="{{ post.date }}"><img src="/assets/link.svg" class="linkicon" /></a>
         {% if post.network == 'github' %}
           <blockquote class="github-pull-request">
             <a href="http://github.com/{{ post.user }}">{{ post.user }}</a> created a pull request in {{ post.repo }}
