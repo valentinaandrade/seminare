@@ -10,7 +10,9 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <div class="content" style="margin-top: 20px;">
-        <a href="/seminare{{ post.url }}" class="linkicon" title="{{ post.date }}"><img src="/assets/link.svg" class="linkicon" /></a>
+        <a href="/seminare{{ post.url }}" class="linkicon" title="{{ post.date }}">
+    <img src="/assets/link.svg" class="linkicon" />
+</a>
         {% if post.network == 'github' %}
           <blockquote class="github-pull-request">
             <a href="http://github.com/{{ post.user }}">{{ post.user }}</a> created a pull request in {{ post.repo }}
@@ -70,6 +72,6 @@ layout: default
     {% endif %}
   </div>
 
-  <p class="rss-subscribe">subscribe <a href="mailto:valentina@princeton.edu">me pueden mandar mensajes por aquí</a></p>
+  <p class="rss-subscribe">me pueden escribir <a href="mailto:valentina@princeton.edu">por aquí</a></p>
 
 </div>
