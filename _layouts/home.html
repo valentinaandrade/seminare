@@ -10,7 +10,7 @@ layout: default
   <ul class="post-list">
     {% for post in paginator.posts %}
       <div class="content" style="margin-top: 20px;">
-        <a href="/seminare{{ post.url }}" class="linkicon" title="{{ post.date }}">
+        <a href="{{ site.baseurl }}{{ post.url }}" class="linkicon" title="{{ post.date }}">
     <img src="/assets/link.svg" class="linkicon" />
 </a>
         {% if post.network == 'github' %}
