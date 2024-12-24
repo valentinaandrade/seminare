@@ -22,7 +22,7 @@ subtitle: |
 email: valentina@princeton.edu
 description: >- # this means to ignore newlines until "baseurl:"
     Cartas atemporales y algunos ensayos
-baseurl: "/" # the subpath of your site, e.g. /blog
+baseurl: "/seminare" # the subpath of your site, e.g. /blog
 url: "seminare" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: valentiandrade
 github_username: valentinaandrade
