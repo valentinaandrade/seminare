@@ -7,7 +7,7 @@ tags:
 - projects
 ---
 <h4>La historia</h4>
-<img src="post_files/unafoto.png" alt="Imagen relacionada con la historia"/><br/>
+
 <p>Siéntate, te tengo que contar una historia. Se me ocurren varios inicios, pero no sé si tienen que ver con esta historia.</p>
 
 <!--more-->
